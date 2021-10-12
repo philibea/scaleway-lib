@@ -12,6 +12,13 @@
       {
         "devDependencies": ["**/__tests__/*", "rollup.config.mjs"]
       }
+    ],
+    "@typescript-eslint/naming-convention": [
+      "error", 
+      { 
+        "selector": "enumMember", 
+        "format": ["PascalCase"]
+      }
     ]
   },
   "overrides": [
